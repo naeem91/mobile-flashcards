@@ -1,12 +1,20 @@
 {
   "name": "mobile-flashcards",
-  "displayName": "mobile-flashcards",
+  "displayName": "Mobile Flashcards",
   "expo": {
     "name": "mobile-flashcards",
     "slug": "mobile-flashcards",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "useNextNotificationsApi": true
+    }
+  },
+  "notificationSettings": {
+    "hour": 12,
+    "minute": 0,
+    "duration": 24
   }
 }
